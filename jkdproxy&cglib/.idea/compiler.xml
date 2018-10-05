@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cglib" />
+        <module name="cglib-integration-test" />
+        <module name="cglib-jmh" />
+        <module name="cglib-nodep" />
+        <module name="cglib-sample" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cglib" target="1.5" />
+      <module name="cglib-integration-test" target="1.5" />
+      <module name="cglib-jmh" target="1.6" />
+      <module name="cglib-nodep" target="1.5" />
+      <module name="cglib-parent" target="1.5" />
+      <module name="cglib-sample" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
