@@ -1,6 +1,6 @@
-package net.sf.cglib.samples.proxypattern.staticproxy;
+package com.jiegeshe.proxy.pattern.sample.staticproxy;
 
-import net.sf.cglib.samples.proxypattern.RealSubject;
+import com.jiegeshe.proxy.pattern.sample.RealSubject;
 
 /**
  * @author stone

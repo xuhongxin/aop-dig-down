@@ -1,4 +1,4 @@
-package net.sf.cglib.samples.proxypattern;
+package com.jiegeshe.proxy.pattern.sample;
 
 /**
  * @author stone

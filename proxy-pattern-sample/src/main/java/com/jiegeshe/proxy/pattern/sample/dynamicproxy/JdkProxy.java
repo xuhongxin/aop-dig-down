@@ -1,9 +1,9 @@
-package net.sf.cglib.samples.proxypattern.dynamicproxy;
+package com.jiegeshe.proxy.pattern.sample.dynamicproxy;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 
-import net.sf.cglib.samples.proxypattern.RealSubject;
+import com.jiegeshe.proxy.pattern.sample.RealSubject;
 
 /**
  * @author stone

@@ -1,7 +1,7 @@
-package net.sf.cglib.samples.proxypattern.dynamicproxy;
+package com.jiegeshe.proxy.pattern.sample.dynamicproxy;
 
 import net.sf.cglib.proxy.Enhancer;
-import net.sf.cglib.samples.proxypattern.RealSubject;
+import com.jiegeshe.proxy.pattern.sample.RealSubject;
 
 /**
  * @author stone

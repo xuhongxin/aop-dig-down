@@ -1,4 +1,4 @@
-package net.sf.cglib.samples.proxypattern.dynamicproxy;
+package com.jiegeshe.proxy.pattern.sample.dynamicproxy;
 
 import java.lang.reflect.Method;
 
