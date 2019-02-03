@@ -330,12 +330,6 @@ implements ClassGenerator
             }
             byte[] b = strategy.generate(this);
 
-
-            // output proxy class by stone
-            FileOutputStream fos = new FileOutputStream(getClassName() + ".class");
-            fos.write(b);
-            fos.close();
-
             String className = ClassNameReader.getClassName(new ClassReader(b));
             ProtectionDomain protectionDomain = getProtectionDomain();
             synchronized (classLoader) { // just in case
