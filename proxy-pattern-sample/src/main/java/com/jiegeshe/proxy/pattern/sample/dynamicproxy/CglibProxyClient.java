@@ -1,7 +1,8 @@
 package com.jiegeshe.proxy.pattern.sample.dynamicproxy;
 
-import net.sf.cglib.proxy.Enhancer;
 import com.jiegeshe.proxy.pattern.sample.RealSubject;
+import net.sf.cglib.core.DebuggingClassWriter;
+import net.sf.cglib.proxy.Enhancer;
 
 /**
  * @author stone
@@ -11,6 +12,10 @@ import com.jiegeshe.proxy.pattern.sample.RealSubject;
 public class CglibProxyClient {
 
     public static void main(String[] args) {
+
+        // 输出 cglib代理 动态生成的 .class字节码 到 com.sun.proxy 路径下
+        System.setProperty(DebuggingClassWriter.DEBUG_LOCATION_PROPERTY,
+            System.getProperty("user.dir") + "/proxy-pattern-sample/src/main/java");
 
         // 创建一个类生成器 ClassGenerator
         Enhancer enhancer = new Enhancer();
