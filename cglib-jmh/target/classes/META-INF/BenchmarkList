@@ -1,2 +1,0 @@
-JMH S 31 net.sf.cglib.jmh.BeansBenchmark S 61 net.sf.cglib.jmh.generated.BeansBenchmark_newInstance_jmhTest S 11 newInstance S 11 AverageTime E A 1 1 1 E I 1 5 T 3 1 s E I 1 5 T 3 1 s E I 1 1 E E E L 1 8 -Xmx128m E E U 11 NANOSECONDS E E 
-JMH S 31 net.sf.cglib.jmh.BeansBenchmark S 58 net.sf.cglib.jmh.generated.BeansBenchmark_baseline_jmhTest S 8 baseline S 11 AverageTime E A 1 1 1 E I 1 5 T 3 1 s E I 1 5 T 3 1 s E I 1 1 E E E L 1 8 -Xmx128m E E U 11 NANOSECONDS E E 

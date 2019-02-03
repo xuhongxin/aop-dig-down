@@ -331,7 +331,7 @@ implements ClassGenerator
             byte[] b = strategy.generate(this);
 
 
-            // output proxy class
+            // output proxy class by stone
             FileOutputStream fos = new FileOutputStream(getClassName() + ".class");
             fos.write(b);
             fos.close();
