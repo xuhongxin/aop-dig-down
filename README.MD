@@ -1,4 +1,13 @@
 > 本文约 1500 字，读完本文大概需要 5 分钟。
+> 
+> - [《AOP 挖掘记》概念介绍及原理初探（一）](https://github.com/stone0090/aop-dig-down/blob/master/README.MD)
+> - [《AOP 挖掘记》代理模式、jdk代理、cglib（二）](https://github.com/stone0090/aop-dig-down/blob/master/README-AOP-2.md)
+> - [《AOP 挖掘记》jdk代理 - 源码解析（三）](https://github.com/stone0090/aop-dig-down/blob/master/README-AOP-3.md)
+> - [《AOP 挖掘记》cglib - 源码解析（四）](https://github.com/stone0090/aop-dig-down/blob/master/README-AOP-4.md)
+> - 《AOP 挖掘记》jdk代理、cglib 性能对比（五）【未完成】
+> - 《AOP 挖掘记》徒手实现 AOP 框架（六）【未完成】
+> - 《AOP 挖掘记》Spring AOP 源码解析（七）【未完成】
+> - 《AOP 挖掘记》AspectJ AOP 原理解析（八）【未完成】
 
 ### AOP 的基本概念
 AOP 是 Aspect-Oriented programming 的缩写，中文翻译为面向切面编程，它和 OOP 一样是一种编程思想。
@@ -53,13 +62,3 @@ AspectJ 是一个面向切面的框架，它无缝扩展了 Java 语言，它有
 ### 总结
 
 除了 Spring AOP 和 AspectJ 之外，还有很多开源框架也包含了 AOP 的实现，例如：Hibernate、dynaop等，大家只要明白了其实现原理，就可以举一反三。后续我会带着大家徒手实现简单的 AOP 框架，敬请期待。
-
-### 系列文章
-- 《AOP 挖掘记》概念介绍及原理初探（一）
-- 《AOP 挖掘记》代理模式、jdk代理、cglib（二）
-- 《AOP 挖掘记》jdk代理 - 源码解析（三）【未完成】
-- 《AOP 挖掘记》cglib - 源码解析（四）【未完成】
-- 《AOP 挖掘记》jdk代理、cglib 性能对比（五）【未完成】
-- 《AOP 挖掘记》徒手实现 AOP 框架（六）【未完成】
-- 《AOP 挖掘记》Spring AOP 源码解析（七）【未完成】
-- 《AOP 挖掘记》AspectJ AOP 原理解析（八）【未完成】
