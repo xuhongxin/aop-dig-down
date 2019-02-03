@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/aop-dig-down.iml" filepath="$PROJECT_DIR$/aop-dig-down.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cglib/cglib.iml" filepath="$PROJECT_DIR$/cglib/cglib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/proxy-pattern-sample/proxy-pattern-sample.iml" filepath="$PROJECT_DIR$/proxy-pattern-sample/proxy-pattern-sample.iml" />
+    </modules>
+  </component>
+</project>
