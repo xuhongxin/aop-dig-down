@@ -193,6 +193,117 @@ public class PerformanceTest {
     }
 
     @Benchmark
+    public void testjdkProxyFirstMethod() {
+        int count = 10000000;
+        for (int i = 0; i < count; i++) {
+            jdkProxy.a0();
+            jdkProxy.a1();
+            jdkProxy.a2();
+            jdkProxy.a3();
+            jdkProxy.a4();
+            jdkProxy.a5();
+            jdkProxy.a6();
+            jdkProxy.a7();
+            jdkProxy.a8();
+            jdkProxy.a9();
+            jdkProxy.b0();
+            jdkProxy.b1();
+            jdkProxy.b2();
+            jdkProxy.b3();
+            jdkProxy.b4();
+            jdkProxy.b5();
+            jdkProxy.b6();
+            jdkProxy.b7();
+            jdkProxy.b8();
+            jdkProxy.b9();
+            jdkProxy.c0();
+            jdkProxy.c1();
+            jdkProxy.c2();
+            jdkProxy.c3();
+            jdkProxy.c4();
+            jdkProxy.c5();
+            jdkProxy.c6();
+            jdkProxy.c7();
+            jdkProxy.c8();
+            jdkProxy.c9();
+        }
+    }
+
+    @Benchmark
+    public void testCglibInterfaceProxyFirstMethod() {
+        int count = 10000000;
+        for (int i = 0; i < count; i++) {
+            cglibInterfaceProxy.a0();
+            cglibInterfaceProxy.a1();
+            cglibInterfaceProxy.a2();
+            cglibInterfaceProxy.a3();
+            cglibInterfaceProxy.a4();
+            cglibInterfaceProxy.a5();
+            cglibInterfaceProxy.a6();
+            cglibInterfaceProxy.a7();
+            cglibInterfaceProxy.a8();
+            cglibInterfaceProxy.a9();
+            cglibInterfaceProxy.b0();
+            cglibInterfaceProxy.b1();
+            cglibInterfaceProxy.b2();
+            cglibInterfaceProxy.b3();
+            cglibInterfaceProxy.b4();
+            cglibInterfaceProxy.b5();
+            cglibInterfaceProxy.b6();
+            cglibInterfaceProxy.b7();
+            cglibInterfaceProxy.b8();
+            cglibInterfaceProxy.b9();
+            cglibInterfaceProxy.c0();
+            cglibInterfaceProxy.c1();
+            cglibInterfaceProxy.c2();
+            cglibInterfaceProxy.c3();
+            cglibInterfaceProxy.c4();
+            cglibInterfaceProxy.c5();
+            cglibInterfaceProxy.c6();
+            cglibInterfaceProxy.c7();
+            cglibInterfaceProxy.c8();
+            cglibInterfaceProxy.c9();
+        }
+    }
+
+    @Benchmark
+    public void testCglibSuperClassProxyFirstMethod() {
+        int count = 10000000;
+        for (int i = 0; i < count; i++) {
+            cglibSuperClassProxy.a0();
+            cglibSuperClassProxy.a1();
+            cglibSuperClassProxy.a2();
+            cglibSuperClassProxy.a3();
+            cglibSuperClassProxy.a4();
+            cglibSuperClassProxy.a5();
+            cglibSuperClassProxy.a6();
+            cglibSuperClassProxy.a7();
+            cglibSuperClassProxy.a8();
+            cglibSuperClassProxy.a9();
+            cglibSuperClassProxy.b0();
+            cglibSuperClassProxy.b1();
+            cglibSuperClassProxy.b2();
+            cglibSuperClassProxy.b3();
+            cglibSuperClassProxy.b4();
+            cglibSuperClassProxy.b5();
+            cglibSuperClassProxy.b6();
+            cglibSuperClassProxy.b7();
+            cglibSuperClassProxy.b8();
+            cglibSuperClassProxy.b9();
+            cglibSuperClassProxy.c0();
+            cglibSuperClassProxy.c1();
+            cglibSuperClassProxy.c2();
+            cglibSuperClassProxy.c3();
+            cglibSuperClassProxy.c4();
+            cglibSuperClassProxy.c5();
+            cglibSuperClassProxy.c6();
+            cglibSuperClassProxy.c7();
+            cglibSuperClassProxy.c8();
+            cglibSuperClassProxy.c9();
+        }
+    }
+
+    @Benchmark
     public void testjdkProxyLastMethod() {
         int count = 10000000;
         for (int i = 0; i < count; i++) {
