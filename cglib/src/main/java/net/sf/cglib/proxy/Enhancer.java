@@ -43,7 +43,7 @@ import org.objectweb.asm.Label;
  * arguments before calling the super method, or not call it at all.
  * <p>
  * Although <code>MethodInterceptor</code> is generic enough to meet any
- * interception need, it is often overkill. For simplicity and performance, additional
+ * interception need, it is often overkill. For simplicity and compare, additional
  * specialized callback types, such as {@link LazyLoader} are also available.
  * Often a single callback will be used per enhanced class, but you can control
  * which callback is used on a per-method basis with a {@link CallbackFilter}.

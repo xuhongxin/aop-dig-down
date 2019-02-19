@@ -30,7 +30,7 @@ import net.sf.cglib.core.internal.LoadingCache;
 
 /**
  * Abstract class for all code-generating CGLIB utilities.
- * In addition to caching generated classes for performance, it provides hooks for
+ * In addition to caching generated classes for compare, it provides hooks for
  * customizing the <code>ClassLoader</code>, name of the generated class, and transformations
  * applied before generation.
  */

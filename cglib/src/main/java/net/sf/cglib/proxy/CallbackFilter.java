@@ -40,7 +40,7 @@ public interface CallbackFilter {
      * the <code>Enhancer</code> will use, so this is a reminder that
      * you should correctly implement <code>equals</code> and
      * <code>hashCode</code> for custom <code>CallbackFilter</code>
-     * implementations in order to improve performance.
+     * implementations in order to improve compare.
     */
     boolean equals(Object o);
 }

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-    <component name="SmartFoxWorkToolsProjectState">
-        <option name="branch" value="master" />
-        <option name="gitUrl" value="https://github.com/stone0090/aop-dig-down.git" />
-        <option name="localBranch" value="master" />
-        <option name="revision" value="c1618da7929221af197021a894cea36693b23eff" />
-    </component>
+  <component name="SmartFoxWorkToolsProjectState">
+    <option name="branch" value="master" />
+    <option name="gitUrl" value="https://github.com/stone0090/aop-dig-down.git" />
+    <option name="localBranch" value="master" />
+    <option name="revision" value="0b3623ff331fa63c9bc1545b5bfac03abd0b3bfe" />
+  </component>
 </project>

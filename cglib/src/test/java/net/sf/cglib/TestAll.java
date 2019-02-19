@@ -83,7 +83,7 @@ public class TestAll extends TestCase {
         suite.addTest(TestInterceptFields.suite());
         suite.addTest(TestDemo.suite());
 
-        // performance
+        // compare
         // suite.addTest(TestReflectPerf.suite());
         // suite.addTest(TestXmlParsing.suite());
         return suite;
