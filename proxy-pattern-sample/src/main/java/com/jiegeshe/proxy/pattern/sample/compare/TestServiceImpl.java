@@ -155,38 +155,4 @@ public class TestServiceImpl implements TestService {
     public void c9() {
 
     }
-
-    @Override
-    public void testLastMethod() {
-        this.a0();
-        this.a1();
-        this.a2();
-        this.a3();
-        this.a4();
-        this.a5();
-        this.a6();
-        this.a7();
-        this.a8();
-        this.a9();
-        this.b0();
-        this.b1();
-        this.b2();
-        this.b3();
-        this.b4();
-        this.b5();
-        this.b6();
-        this.b7();
-        this.b8();
-        this.b9();
-        this.c0();
-        this.c1();
-        this.c2();
-        this.c3();
-        this.c4();
-        this.c5();
-        this.c6();
-        this.c7();
-        this.c8();
-        this.c9();
-    }
 }

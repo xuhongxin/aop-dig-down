@@ -36,5 +36,4 @@ interface TestService {
     void c7();
     void c8();
     void c9();
-    void testLastMethod();
 }
